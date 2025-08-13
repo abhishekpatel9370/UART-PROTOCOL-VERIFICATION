@@ -1,0 +1,42 @@
+Loading snapshot worklib.tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
+xcelium> run
+[DRV] : RESET DONE
+----------------------------------------
+[GEN]: Oper : write Din : 10
+[DRV]: Data Sent : 10
+[MON] : DATA SEND on UART TX 10
+[SCO] : DRV : 10 MON : 10
+DATA MATCHED
+----------------------------------------
+[GEN]: Oper : read Din : 194
+[DRV]: Data RCVD : 222
+[MON] : DATA RCVD RX 222
+[SCO] : DRV : 222 MON : 222
+DATA MATCHED
+----------------------------------------
+[GEN]: Oper : write Din : 4
+[DRV]: Data Sent : 4
+[MON] : DATA SEND on UART TX 4
+[SCO] : DRV : 4 MON : 4
+DATA MATCHED
+----------------------------------------
+[GEN]: Oper : read Din : 25
+[DRV]: Data RCVD : 26
+[MON] : DATA RCVD RX 26
+[SCO] : DRV : 26 MON : 26
+DATA MATCHED
+----------------------------------------
+[GEN]: Oper : read Din : 53
+[DRV]: Data RCVD : 32
+[MON] : DATA RCVD RX 32
+[SCO] : DRV : 32 MON : 32
+DATA MATCHED
+----------------------------------------
+Simulation complete via $finish(1) at time 138850 NS + 3
+./testbench.sv:341     $finish();
+xcelium> exit
+TOOL:	xrun	23.09-s001: Exiting on Aug 13, 2025 at 13:46:06 EDT  (total: 00:00:01)
+Finding VCD file...
+./dump.vcd
